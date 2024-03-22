@@ -115,8 +115,8 @@ public class Node {
 
     /**
      *
-     *
-     *
+     * @param value value to validate
+     * @throws IllegalArgumentException If value is out of range
      */
     private void validateValue(int value) {
         if (value < MIN_VALUE || value > MAX_VALUE) {
