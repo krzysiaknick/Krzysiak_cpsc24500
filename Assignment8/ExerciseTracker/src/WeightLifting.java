@@ -16,11 +16,11 @@ public class WeightLifting extends Exercise{
     /**
      * Constructor for creating a WeightLifting object.
      *
-     * @param name        The name of the person doing the exercise.
-     * @param date        The date on which the exercise was done.
-     * @param duration    The duration of the exercise session in minutes.
-     * @param weightLifted The weight lifted during the exercise in kilograms.
-     * @param comment     Any additional comments about the exercise session.
+     * @param name        The name of the exercise
+     * @param date        The date
+     * @param duration    The duration of the exercise
+     * @param weightLifted The weight lifted
+     * @param comment     Any additional comments
      */
 
     public WeightLifting(String name, String date, double duration, double weightLifted, String comment){
@@ -39,7 +39,7 @@ public class WeightLifting extends Exercise{
     /**
      * Sets the weight lifted during the exercise session.
      *
-     * @param weightLifted The weight to be set in kilograms.
+     * @param weightLifted The weight
      * If the input is less than 0, the weight lifted is set to 0.
      */
 

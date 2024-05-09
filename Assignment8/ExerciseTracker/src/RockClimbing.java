@@ -15,10 +15,10 @@ public class RockClimbing extends Exercise{
     /**
      * Constructor for creating a RockClimbing object.
      *
-     * @param name        The name of the person doing the exercise.
-     * @param date        The date on which the exercise was performed.
-     * @param height      The height climbed during the exercise session in meters.
-     * @param comment     Additional comments about the exercise session.
+     * @param name        The name of the exercise
+     * @param date        The date
+     * @param height      The height climbed
+     * @param comment     Additional comments
      */
     public RockClimbing(String name, String date, double height, String comment){
         super(name, date, height, comment);
@@ -48,7 +48,7 @@ public class RockClimbing extends Exercise{
     /**
      * Sets the height climbed during the exercise session.
      *
-     * @param height The height to be set in meters.
+     * @param height The height
      * If the input is less than 0, the height is set to 0.
      */
     public void setHeight(double height){
